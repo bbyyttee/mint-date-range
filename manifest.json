@@ -4,9 +4,6 @@
     "version"                   : "1.6.1",
     "manifest_version"          : 2,
     "description"               : "Choose a date range for Mint's transaction list",
-    "background": {
-        "scripts"               : ["js/bg.js"]
-    },
     "page_action": {
         "default_title"         : "Mint Date Range",
         "default_popup"         : "mdr.html",
@@ -19,7 +16,6 @@
         "16"                    : "images/mdr-icon-16.png"
     },
     "permissions"               : [
-                                    "declarativeContent",
                                     "activeTab",
                                     "storage"
                                   ],
