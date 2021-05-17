@@ -475,14 +475,14 @@ $(document).ready(function () {
         }
     });
 
-    MDR_cached.$DCB.click(function(e) {
+/*     MDR_cached.$DCB.click(function(e) {
         _gaq.push(['_trackEvent', e.target.id, 'possible']);
         chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
             if (tabs.length) {
                 chrome.tabs.create({url: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D9L8GRX9H58TN&source=url', index: tabs[0].index + 1});
             }
         });
-    });
+    }); */
 
     $(MDR_constants.selectors.TRANSACTIONS_LINK).click(function(e) {
         chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
