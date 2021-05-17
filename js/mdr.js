@@ -12,7 +12,6 @@ $(document).ready(function () {
             INPUT_ERROR:        "#MDR_InputErrorMsg",
             RESET_DATE:         ".mdr-reset-button",
             INPUT_CONTAINER:    ".mdr-date-box-container",
-            DCB:                "#MDR_dcb",
             TRANSACTIONS_LINK:  "#MDR_TransactionsLink"
         },
 
@@ -37,7 +36,6 @@ $(document).ready(function () {
         $InputError:        $(MDR_constants.selectors.INPUT_ERROR),
         $ResetDate:         $(MDR_constants.selectors.RESET_DATE),
         $InputContainers:   $(MDR_constants.selectors.INPUT_CONTAINER),
-        $DCB:               $(MDR_constants.selectors.DCB),
         $PageError:         $(MDR_constants.selectors.PAGE_ERROR)
     };
 
@@ -474,15 +472,6 @@ $(document).ready(function () {
             toDatePicker.glDatePicker("update");
         }
     });
-
-/*     MDR_cached.$DCB.click(function(e) {
-        _gaq.push(['_trackEvent', e.target.id, 'possible']);
-        chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
-            if (tabs.length) {
-                chrome.tabs.create({url: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D9L8GRX9H58TN&source=url', index: tabs[0].index + 1});
-            }
-        });
-    }); */
 
     $(MDR_constants.selectors.TRANSACTIONS_LINK).click(function(e) {
         chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
