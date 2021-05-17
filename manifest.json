@@ -19,5 +19,5 @@
                                     "activeTab",
                                     "storage"
                                   ],
-    "content_security_policy"   : "default-src 'none'; style-src 'unsafe-inline' 'self'; img-src 'self' http://www.google-analytics.com/; script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+    "content_security_policy"   : "default-src 'none'; style-src 'unsafe-inline' 'self'; object-src 'self'"
 }
