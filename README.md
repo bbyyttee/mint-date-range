@@ -6,18 +6,18 @@ Chose your own date range for viewing Mint.com's transaction page!
 2) Enter one or more dates to search on
 3) Click "Go"
 
-Extension will send the date values to Mint and you'll get back a sorted transactions page within the date range you specified.
+Extension will send the date values to Mint and you willl get back a sorted transactions page within the date range you specified.
 
-Note:
+## Note
+
 None of your data is accessed by the extension.
+
 Code is available for viewing here: https://github.com/bbyyttee/mint-date-range
-
-
-
 
 ## License
 
 Copyright (c) 2021 Double Byte
+
 Copyright (c) 2018 Alvin Land
 
 Re-released with permission from original developer.
