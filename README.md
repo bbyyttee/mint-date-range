@@ -14,6 +14,12 @@ None of your data is accessed by the extension.
 
 Code is available for viewing here: https://github.com/bbyyttee/mint-date-range
 
+## Installation
+
+Install for free directly from [Chrome Web Store](https://chrome.google.com/webstore/detail/lbmpegaknhopgklegbiodfdkkdahcjlk):
+
+[<img src="https://raw.githubusercontent.com/bbyyttee/bbyyttee/main/chrome-small-badge-border.png" alt="chrome web store" width="206" height="58">](https://chrome.google.com/webstore/detail/lbmpegaknhopgklegbiodfdkkdahcjlk)
+
 ## License
 
 Copyright (c) 2021 Double Byte
